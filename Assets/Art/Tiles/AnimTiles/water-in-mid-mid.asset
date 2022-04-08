@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: water-in-mid-mid
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 2393958817869812727, guid: 061b99ecee074ad4385faeaee72b69c3, type: 3}
+  - {fileID: 6073722994272340956, guid: 1de05197dfbe9db4bbd1c0f0967aa8c7, type: 3}
+  - {fileID: -3541237337724083347, guid: 7114d1421c9785c44a713382648875fc, type: 3}
+  - {fileID: -1041140429850016017, guid: f49ff213a9f7fb0428043122e15a66cd, type: 3}
+  - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
+  - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
+  - {fileID: -7147387588872782764, guid: 3aae6529028ba5349a3eab079ff7f59a, type: 3}
+  - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
