@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: water-out-mid-right
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -2272459033959767776, guid: c7b639df828c2ed4cb4bbaccb9c8c0d8, type: 3}
+  - {fileID: 3195154708138109557, guid: aa0ab26a10a4e194d9ba97aa63ae48f0, type: 3}
+  - {fileID: -7682063142940601162, guid: f0227a1633da1634d8c3cf971c549685, type: 3}
+  - {fileID: -818514208767717180, guid: e3019bae877436e4d83eafa21b3083ff, type: 3}
+  - {fileID: 6351532016182216119, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
+  - {fileID: -2550562025154701873, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
+  - {fileID: -6242085436811115320, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
+  m_MinSpeed: 3
+  m_MaxSpeed: 3
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
