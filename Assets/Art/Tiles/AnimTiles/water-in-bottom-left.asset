@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: water-in-bottom-left
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 5869118428005690230, guid: 061b99ecee074ad4385faeaee72b69c3, type: 3}
+  - {fileID: -7299347389029427182, guid: 1de05197dfbe9db4bbd1c0f0967aa8c7, type: 3}
+  - {fileID: -7020151742093466620, guid: 7114d1421c9785c44a713382648875fc, type: 3}
+  - {fileID: 1360795246142404614, guid: f49ff213a9f7fb0428043122e15a66cd, type: 3}
+  - {fileID: -5320731765762520218, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
+  - {fileID: -7895913647984066063, guid: 1d72e750585b27f478e00584f572e396, type: 3}
+  - {fileID: 6318956262764711750, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
+  m_MinSpeed: 3
+  m_MaxSpeed: 3
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
