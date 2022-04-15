@@ -37,6 +37,19 @@ public class TravelerController : MonoBehaviour
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
+            if (hit.collider != null)
+            {
+                NPCController character = hit.collider.GetComponent<NPCController>();
+                if(character != null)
+                {
+                    character.DisplayDialog();
+                }
+            }
+        }
     }
 
     void FixedUpdate()
