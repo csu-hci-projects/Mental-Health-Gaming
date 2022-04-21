@@ -6,7 +6,7 @@ public class TravelerController : MonoBehaviour
 {
     public float speed = 5.0f;
 
-    Dictionary<GameObject, int> inventory = new Dictionary<GameObject, int>();
+    Dictionary<QuestItem, int> inventory = new Dictionary<QuestItem, int>();
 
     Rigidbody2D rigidbody2d;
     float horizontal;
@@ -42,10 +42,17 @@ public class TravelerController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
-            if (hit.collider != null)
+            RaycastHit2D hitNPC = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
+            if (hitNPC.collider != null)
             {
-                NPCDisplayDialog(hit);
+                NPCDisplayDialog(hitNPC);
+            }
+            RaycastHit2D hitItem = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("Item"));
+            if (hitItem.collider != null)
+            {
+                QuestItem item = hitItem.collider.GetComponent<QuestItem>();
+                UpdateInventory(item, 2);
+                item.QuestItemAlert();
             }
         }
     }
@@ -68,7 +75,7 @@ public class TravelerController : MonoBehaviour
             }
     }
 
-    void UpdateInventory(GameObject item, int count)
+    public void UpdateInventory(QuestItem item, int count)
     {
         inventory.Add(item, count);
     }

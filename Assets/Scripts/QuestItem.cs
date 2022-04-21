@@ -4,14 +4,34 @@ using UnityEngine;
 
 public class QuestItem : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        TravelerController controller = other.GetComponent<TravelerController>();
+    public float displayTime = 1.0f;
+    public GameObject itemAlert;
+    float timerDisplay;
 
-        if(controller  != null)
+    // Start is called before the first frame update
+    void Start()
+    {
+        itemAlert.SetActive(false);
+        timerDisplay = -1.0f;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(timerDisplay >= 0)
         {
-            controller.UpdateInventory(gameObject, 1);
-            Destory(gameObject);
+            timerDisplay -= Time.deltaTime;
+            if(timerDisplay < 0)
+            {
+                itemAlert.SetActive(false);
+                Destroy(gameObject);
+            }
         }
+    }
+
+    public void QuestItemAlert()
+    {
+        timerDisplay = displayTime;
+        itemAlert.SetActive(true); 
     }
 }

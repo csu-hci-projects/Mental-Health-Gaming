@@ -2519,7 +2519,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0030841827, y: -0.65419626}
+  m_Offset: {x: -0.0030841827, y: -1.0923758}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2530,7 +2530,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0656319, y: 1.6323996}
+  m_Size: {x: 1.0656319, y: 2.5087585}
   m_EdgeRadius: 0
 --- !u!1 &145861740
 GameObject:
@@ -4318,7 +4318,7 @@ Tilemap:
       - {fileID: 8034952771127911780, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: -6192628102503501087, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: 3299565928192638357, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 1, y: 48, z: 0}
@@ -4338,7 +4338,7 @@ Tilemap:
       - {fileID: 4566319919119968286, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: 3219882767355651272, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: 1828471246905054075, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: 48, z: 0}
@@ -4398,7 +4398,7 @@ Tilemap:
       - {fileID: 415609076226985112, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: -4369337960736943308, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: -7444018431742521026, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: 49, z: 0}
@@ -4418,7 +4418,7 @@ Tilemap:
       - {fileID: 6597090816503357134, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: 7112348069767732249, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: 485122499870951139, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -4, y: 49, z: 0}
@@ -4428,7 +4428,7 @@ Tilemap:
       - {fileID: 415609076226985112, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: -4369337960736943308, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: -7444018431742521026, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: 49, z: 0}
@@ -4498,7 +4498,7 @@ Tilemap:
       - {fileID: -6699033496574342864, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: 3078764044062015880, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: 6428489640292848332, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -11, y: 50, z: 0}
@@ -4568,7 +4568,7 @@ Tilemap:
       - {fileID: -435710425174355548, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: -1878209525580177178, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: -7244174062717928567, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: 50, z: 0}
@@ -4718,7 +4718,7 @@ Tilemap:
       - {fileID: -8043104177007411927, guid: ef1330fbebde4fa42a838de7220d5da0, type: 3}
       - {fileID: 1952554571729073264, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
       - {fileID: -8522722955837071276, guid: b06bd39e498cf9946a693505bc27dfd9, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 8, y: 51, z: 0}
@@ -6497,88 +6497,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &372627616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 372627618}
-  - component: {fileID: 372627617}
-  m_Layer: 0
-  m_Name: mushrooms_3 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &372627617
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372627616}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 8108619787234300647, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &372627618
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372627616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3086815, y: 6.3488755, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394481547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7271,88 +7189,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477149515}
   m_CullTransparentMesh: 1
---- !u!1 &501062366
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 501062368}
-  - component: {fileID: 501062367}
-  m_Layer: 0
-  m_Name: mushrooms_2 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &501062367
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501062366}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2288768979443741509, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &501062368
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501062366}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.7713585, y: -9.204384, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &523414154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7629,88 +7465,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556673064}
   m_CullTransparentMesh: 1
---- !u!1 &607574593
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 607574595}
-  - component: {fileID: 607574594}
-  m_Layer: 0
-  m_Name: mushrooms_2 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &607574594
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607574593}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2288768979443741509, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &607574595
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607574593}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.433105, y: 9.908094, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &617894032
 GameObject:
   m_ObjectHideFlags: 0
@@ -7772,7 +7526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617894032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.35, y: 3.82, z: -10}
+  m_LocalPosition: {x: 11.7, y: 3.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 856406621}
@@ -65569,7 +65323,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 38, z: 0}
@@ -65838,88 +65592,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &801056939
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 801056941}
-  - component: {fileID: 801056940}
-  m_Layer: 0
-  m_Name: mushrooms_0 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &801056940
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801056939}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3097342991762851659, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &801056941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801056939}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.76699, y: -0.49437547, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835654903
 GameObject:
   m_ObjectHideFlags: 0
@@ -66210,88 +65882,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8701483, y: 1.1740036}
   m_EdgeRadius: 0
---- !u!1 &902023698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 902023700}
-  - component: {fileID: 902023699}
-  m_Layer: 0
-  m_Name: mushrooms_0 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &902023699
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902023698}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3097342991762851659, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &902023700
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902023698}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.253338, y: -7.1705756, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904224620
 GameObject:
   m_ObjectHideFlags: 0
@@ -66388,7 +65978,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.009256363, y: -0.64493865}
+  m_Offset: {x: 0.009256363, y: -1.0991331}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -66399,7 +65989,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0779762, y: 1.6385695}
+  m_Size: {x: 1.0779762, y: 2.5469582}
   m_EdgeRadius: 0
 --- !u!1 &914457916
 GameObject:
@@ -67062,88 +66652,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1044874686
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1044874688}
-  - component: {fileID: 1044874687}
-  m_Layer: 0
-  m_Name: mushrooms_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1044874687
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044874686}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 8108619787234300647, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1044874688
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044874686}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.781979, y: 9.5233135, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103084237
 GameObject:
   m_ObjectHideFlags: 0
@@ -67717,88 +67225,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0, y: 1.25}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1181651081
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1181651083}
-  - component: {fileID: 1181651082}
-  m_Layer: 0
-  m_Name: mushrooms_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1181651082
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181651081}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2288768979443741509, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1181651083
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181651081}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.459183, y: 7.471152, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200959236
 GameObject:
   m_ObjectHideFlags: 0
@@ -67899,100 +67325,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0, y: 1.72}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1206501007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1206501009}
-  - component: {fileID: 1206501008}
-  m_Layer: 0
-  m_Name: mushrooms_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1206501008
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206501007}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3097342991762851659, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1206501009
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206501007}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -53.17204, y: 2.2679029, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1292607976}
-  - {fileID: 1044874688}
-  - {fileID: 1181651083}
-  - {fileID: 1692141072}
-  - {fileID: 372627618}
-  - {fileID: 607574595}
-  - {fileID: 501062368}
-  - {fileID: 1892082299}
-  - {fileID: 801056941}
-  - {fileID: 1938924282}
-  - {fileID: 902023700}
-  - {fileID: 1265909509}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1211208132
 GameObject:
   m_ObjectHideFlags: 0
@@ -68499,7 +67831,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00308609, y: -0.6634538}
+  m_Offset: {x: 0.00308609, y: -1.1015904}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -68510,90 +67842,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0656357, y: 1.613883}
+  m_Size: {x: 1.0656357, y: 2.4901567}
   m_EdgeRadius: 0
---- !u!1 &1265909507
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1265909509}
-  - component: {fileID: 1265909508}
-  m_Layer: 0
-  m_Name: mushrooms_1 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1265909508
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265909507}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -8835274597533513770, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1265909509
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265909507}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.086887, y: 1.0973012, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1285167923
 GameObject:
   m_ObjectHideFlags: 0
@@ -68694,7 +67944,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00308609, y: -0.63876724}
+  m_Offset: {x: 0.00308609, y: -1.0782423}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -68705,90 +67955,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0656357, y: 1.6756}
+  m_Size: {x: 1.0656357, y: 2.5545502}
   m_EdgeRadius: 0
---- !u!1 &1292607974
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1292607976}
-  - component: {fileID: 1292607975}
-  m_Layer: 0
-  m_Name: mushrooms_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1292607975
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292607974}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -8835274597533513770, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1292607976
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292607974}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.3809433, y: -6.2847457, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504401053
 GameObject:
   m_ObjectHideFlags: 0
@@ -69114,7 +68282,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00308609, y: -0.66653967}
+  m_Offset: {x: -0.00308609, y: -1.1105645}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -69125,7 +68293,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0903168, y: 1.583025}
+  m_Size: {x: 1.0903168, y: 2.4710746}
   m_EdgeRadius: 0
 --- !u!1 &1550899630
 GameObject:
@@ -69207,7 +68375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550899630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.35, y: 3.82, z: 0}
+  m_LocalPosition: {x: 11.7, y: 3.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -70042,88 +69210,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639741830}
   m_CullTransparentMesh: 1
---- !u!1 &1692141070
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1692141072}
-  - component: {fileID: 1692141071}
-  m_Layer: 0
-  m_Name: mushrooms_1 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1692141071
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692141070}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -8835274597533513770, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1692141072
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692141070}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6113815, y: -3.6874788, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1695446519
 GameObject:
   m_ObjectHideFlags: 0
@@ -90859,7 +89945,7 @@ Tilemap:
       - {fileID: 3415992021455847546, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 4510234366312232670, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -2048880089248996931, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -16, y: 16, z: 0}
@@ -90989,7 +90075,7 @@ Tilemap:
       - {fileID: -7424640274726407251, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -4704914336709538846, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 4724550235401987044, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -18, y: 19, z: 0}
@@ -91119,7 +90205,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 38, z: 0}
@@ -91158,7 +90244,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -4, y: 38, z: 0}
@@ -91301,7 +90387,7 @@ Tilemap:
       - {fileID: 706921767633916176, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: 4247109054790570005, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -4093145525207596630, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -13, y: 39, z: 0}
@@ -91327,7 +90413,7 @@ Tilemap:
       - {fileID: 395703422438847633, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -1269915617297076711, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -8265539399421978885, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -11, y: 39, z: 0}
@@ -91340,7 +90426,7 @@ Tilemap:
       - {fileID: 395703422438847633, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -1269915617297076711, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -8265539399421978885, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 39, z: 0}
@@ -91548,7 +90634,7 @@ Tilemap:
       - {fileID: 395703422438847633, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -1269915617297076711, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -8265539399421978885, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 11, y: 39, z: 0}
@@ -91561,7 +90647,7 @@ Tilemap:
       - {fileID: 395703422438847633, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -1269915617297076711, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -8265539399421978885, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 12, y: 39, z: 0}
@@ -91574,7 +90660,7 @@ Tilemap:
       - {fileID: 7183941200695268267, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: 8886170344463024249, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -1874891914168884930, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 40, z: 0}
@@ -91600,7 +90686,7 @@ Tilemap:
       - {fileID: 6351532016182216119, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2550562025154701873, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -6242085436811115320, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 41, z: 0}
@@ -91652,7 +90738,7 @@ Tilemap:
       - {fileID: 6351532016182216119, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2550562025154701873, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -6242085436811115320, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 43, z: 0}
@@ -91704,7 +90790,7 @@ Tilemap:
       - {fileID: 6351532016182216119, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2550562025154701873, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -6242085436811115320, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 45, z: 0}
@@ -107639,7 +106725,7 @@ Tilemap:
       - {fileID: -5320731765762520218, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -7895913647984066063, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 6318956262764711750, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: -6, z: 0}
@@ -107665,7 +106751,7 @@ Tilemap:
       - {fileID: 3415992021455847546, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 4510234366312232670, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -2048880089248996931, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: -6, z: 0}
@@ -107691,7 +106777,7 @@ Tilemap:
       - {fileID: 3415992021455847546, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 4510234366312232670, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -2048880089248996931, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: -6, z: 0}
@@ -108003,7 +107089,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 9, y: -3, z: 0}
@@ -108029,7 +107115,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 11, y: -3, z: 0}
@@ -108094,7 +107180,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 6, y: -2, z: 0}
@@ -108302,7 +107388,7 @@ Tilemap:
       - {fileID: 8718852376601569146, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 3167212483368394601, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 8340252132897998393, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: 0, z: 0}
@@ -108367,7 +107453,7 @@ Tilemap:
       - {fileID: 2166407819918984709, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 6372537171906346753, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -219448986030621180, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: 0, z: 0}
@@ -108445,7 +107531,7 @@ Tilemap:
       - {fileID: -5320731765762520218, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -7895913647984066063, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 6318956262764711750, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: 9, z: 0}
@@ -108471,7 +107557,7 @@ Tilemap:
       - {fileID: -5513229724574312478, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 5335081159725020359, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 878441653732691055, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 8, y: 10, z: 0}
@@ -108614,7 +107700,7 @@ Tilemap:
       - {fileID: -7424640274726407251, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -4704914336709538846, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 4724550235401987044, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: 12, z: 0}
@@ -108874,7 +107960,7 @@ Tilemap:
       - {fileID: 1798544208360838117, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: 9032864637176502605, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: 9111135018134763411, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -13, y: 47, z: 0}
@@ -108926,7 +108012,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: 47, z: 0}
@@ -108952,7 +108038,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -7, y: 47, z: 0}
@@ -108965,7 +108051,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -6, y: 47, z: 0}
@@ -109082,7 +108168,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: 47, z: 0}
@@ -109108,7 +108194,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: 47, z: 0}
@@ -109186,7 +108272,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 11, y: 47, z: 0}
@@ -109199,7 +108285,7 @@ Tilemap:
       - {fileID: -3750327136851591299, guid: 808e59f7720004c43a67df69878ecacc, type: 3}
       - {fileID: -2438716821610194159, guid: 2eb9665f3e595b44ab35bd259855ff95, type: 3}
       - {fileID: -7364054032462014821, guid: 3a8c407c284d9004aa914eb0e00d74b1, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 12, y: 47, z: 0}
@@ -109238,7 +108324,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 48, z: 0}
@@ -109342,7 +108428,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -6, y: 48, z: 0}
@@ -109381,7 +108467,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: 48, z: 0}
@@ -109498,7 +108584,7 @@ Tilemap:
       - {fileID: 1629986695091392014, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 9058119062816127651, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -7230168377312928202, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 6, y: 48, z: 0}
@@ -109654,7 +108740,7 @@ Tilemap:
       - {fileID: 2166407819918984709, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: 6372537171906346753, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: -219448986030621180, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -8, y: 49, z: 0}
@@ -109745,7 +108831,7 @@ Tilemap:
       - {fileID: -7424640274726407251, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -4704914336709538846, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 4724550235401987044, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 1, y: 49, z: 0}
@@ -110005,7 +109091,7 @@ Tilemap:
       - {fileID: -5320731765762520218, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -7895913647984066063, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 6318956262764711750, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 1, y: 52, z: 0}
@@ -110070,7 +109156,7 @@ Tilemap:
       - {fileID: -5320731765762520218, guid: 3153f99f84070ab45b56a80460ad6b90, type: 3}
       - {fileID: -7895913647984066063, guid: 1d72e750585b27f478e00584f572e396, type: 3}
       - {fileID: 6318956262764711750, guid: 92a8430920983e24aa710d42518b7f88, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: 52, z: 0}
@@ -117946,88 +117032,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887031546}
   m_CullTransparentMesh: 1
---- !u!1 &1892082297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1892082299}
-  - component: {fileID: 1892082298}
-  m_Layer: 0
-  m_Name: mushrooms_3 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1892082298
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892082297}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 8108619787234300647, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1892082299
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892082297}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.1311, y: -9.248598, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1892726476
 GameObject:
   m_ObjectHideFlags: 0
@@ -119059,88 +118063,6 @@ Transform:
   m_Father: {fileID: 1006119075}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1938924280
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1938924282}
-  - component: {fileID: 1938924281}
-  m_Layer: 0
-  m_Name: mushrooms_1 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1938924281
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938924280}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -8835274597533513770, guid: aaec76640436aa34bb98de57696703a1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1938924282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938924280}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.716743, y: -7.1705756, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206501009}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1970671254
 GameObject:
   m_ObjectHideFlags: 0
@@ -119377,7 +118299,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2001221302
 BoxCollider2D:
@@ -119392,7 +118314,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008435249, y: -0.8252239}
+  m_Offset: {x: -0.008435249, y: -0.97281265}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -119403,7 +118325,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.165175, y: 2.7960625}
+  m_Size: {x: 1.165175, y: 3.09124}
   m_EdgeRadius: 0
 --- !u!1 &2006436074
 GameObject:
@@ -119665,7 +118587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091418340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.35, y: 3.82, z: -10}
+  m_LocalPosition: {x: 11.7, y: 3.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -119981,3 +118903,231 @@ RectTransform:
   m_AnchoredPosition: {x: -0, y: 1.138}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &313438354038915185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 313438355162571159, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_Name
+      value: mushrooms_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.304
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.282
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313438355162571161, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8cdb53c717f62d4a91a5fc71f6c1e51, type: 3}
+--- !u!1001 &2958080180939097892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2958080182081436075, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_Name
+      value: mushrooms_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -52.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958080182081436085, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e21b3d433e230c64892e5ff20d539b31, type: 3}
+--- !u!1001 &4026289703830474548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4026289702659055549, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_Name
+      value: mushrooms_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -47.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026289702659055551, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a73d2c5868705b4690d8cfac15702dc, type: 3}
+--- !u!1001 &7949933989958131568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502128, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949933989853502158, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
+      propertyPath: m_Name
+      value: mushrooms_3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c879219e3b41b54a97aecaffc9f64d0, type: 3}
