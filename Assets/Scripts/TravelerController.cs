@@ -7,6 +7,9 @@ public class TravelerController : MonoBehaviour
     public float speed = 5.0f;
 
     Dictionary<QuestItem, int> inventory = new Dictionary<QuestItem, int>();
+    public int completedQuests = 0;
+    public QuestItem endGame;
+    public ExitButton exit;
 
     Rigidbody2D rigidbody2d;
     float horizontal;
@@ -55,6 +58,11 @@ public class TravelerController : MonoBehaviour
                 item.QuestItemAlert();
             }
         }
+
+        if(Input.GetButtonDown("Fire2"))
+        {
+            exit.DisplayExitWindow();
+        }
     }
 
     void FixedUpdate()
@@ -71,8 +79,12 @@ public class TravelerController : MonoBehaviour
         NPCDialog character = hit.collider.GetComponent<NPCDialog>();
             if(character != null)
             {
-                character.DisplayQuestDialog();
+                character.DialogController(inventory);
             }
+        if (completedQuests == 6)
+        {
+            inventory.Add(endGame, 1);
+        }
     }
 
     public void UpdateInventory(QuestItem item, int count)

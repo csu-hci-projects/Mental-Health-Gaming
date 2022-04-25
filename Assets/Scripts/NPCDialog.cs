@@ -9,6 +9,9 @@ public class NPCDialog : MonoBehaviour
     public GameObject dialogBoxFinish;
     float timerDisplay;
 
+    public QuestItem requiredItem;
+    public TravelerController traveler;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,13 +34,27 @@ public class NPCDialog : MonoBehaviour
         }
     }
 
-    public void DisplayQuestDialog()
+    public void DialogController(Dictionary<QuestItem, int> inventory)
+    {
+        if(inventory.ContainsKey(requiredItem))
+        {
+            traveler.completedQuests += 1;
+            DisplayFinishDialog();
+            Debug.Log(traveler.completedQuests);
+        }
+        else
+        {
+            DisplayQuestDialog();
+        }
+    }
+
+    void DisplayQuestDialog()
     {
         timerDisplay = displayTime;
         dialogBoxStart.SetActive(true);
     }
 
-    public void DisplayFinishDialog()
+    void DisplayFinishDialog()
     {
         timerDisplay = displayTime;
         dialogBoxFinish.SetActive(true);
