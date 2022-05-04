@@ -1,7 +1,11 @@
 # Mental-Health-Gaming
-Tilemap and Environment Assests by Magicscarf on DeviantArt
+Tilemap and Environment Assets by Magicscarf on DeviantArt
 
-Character Assests by my sister, Courtney
+Character Assets by my sister, Courtney
+
+GUI Assets by Black Hammer on Unity Asset Store
+
+Music by TRWorkshop on Unity Asset Store
 
 Checkpoint 2:
 https://youtu.be/BX4_YUROJSQ
